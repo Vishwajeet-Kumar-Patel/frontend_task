@@ -19,7 +19,7 @@ function MainComponent(props) {
 
   useEffect(() => {
     getUsers();
-  }, []);
+  }, );
 
   return (
     <div id="main-container-wrapper">
